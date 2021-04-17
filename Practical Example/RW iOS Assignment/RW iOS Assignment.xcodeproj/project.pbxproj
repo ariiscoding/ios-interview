@@ -14,6 +14,7 @@
 		72BB66B8262ACD6600FA10AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BB66B6262ACD6600FA10AF /* LaunchScreen.storyboard */; };
 		72BB66C3262ACD6700FA10AF /* RW_iOS_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66C2262ACD6700FA10AF /* RW_iOS_AssignmentTests.swift */; };
 		72BB66CE262ACD6700FA10AF /* RW_iOS_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66CD262ACD6700FA10AF /* RW_iOS_AssignmentUITests.swift */; };
+		72BB66E5262ACFE000FA10AF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66E4262ACFE000FA10AF /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72BB66C9262ACD6700FA10AF /* RW iOS AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RW iOS AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB66CD262ACD6700FA10AF /* RW_iOS_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RW_iOS_AssignmentUITests.swift; sourceTree = "<group>"; };
 		72BB66CF262ACD6700FA10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BB66E4262ACFE000FA10AF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				72BB66AB262ACD6600FA10AF /* AppDelegate.swift */,
 				72BB66AD262ACD6600FA10AF /* SceneDelegate.swift */,
 				72BB66AF262ACD6600FA10AF /* ViewController.swift */,
+				72BB66E4262ACFE000FA10AF /* TabBarViewController.swift */,
 				72BB66B4262ACD6600FA10AF /* Assets.xcassets */,
 				72BB66B6262ACD6600FA10AF /* LaunchScreen.storyboard */,
 				72BB66B9262ACD6600FA10AF /* Info.plist */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BB66E5262ACFE000FA10AF /* TabBarViewController.swift in Sources */,
 				72BB66B0262ACD6600FA10AF /* ViewController.swift in Sources */,
 				72BB66AC262ACD6600FA10AF /* AppDelegate.swift in Sources */,
 				72BB66AE262ACD6600FA10AF /* SceneDelegate.swift in Sources */,
