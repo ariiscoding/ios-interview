@@ -12,13 +12,12 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         setUpTabBarItems()
     }
     
     private func setUpTabBarItems() {
         viewControllers = [
-            createTabBarViewControllerItem(for: ViewController(), title: "Library", image: UIImage(systemName: "building.columns.fill")),
+            createTabBarViewControllerItem(for: LibraryNavigationViewController(), title: "Library", image: UIImage(systemName: "building.columns.fill")),
             createTabBarViewControllerItem(for: ViewController(), title: "Downloads", image: UIImage(systemName: "dock.arrow.down.rectangle")),
             createTabBarViewControllerItem(for: ViewController(), title: "My Tutorials", image: UIImage(systemName: "person.circle.fill"))
         ]
