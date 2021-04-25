@@ -10,9 +10,9 @@
 		721CA52526350D210068DE3C /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 721CA52426350D210068DE3C /* articles.json */; };
 		721CA52B26350D520068DE3C /* LibraryContentTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721CA52A26350D520068DE3C /* LibraryContentTableTableViewController.swift */; };
 		721CA53026350D7F0068DE3C /* LibraryNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721CA52F26350D7F0068DE3C /* LibraryNavigationViewController.swift */; };
+		721CA53B263514BD0068DE3C /* LibraryContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721CA53A263514BD0068DE3C /* LibraryContentTableViewCell.swift */; };
 		72BB66AC262ACD6600FA10AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66AB262ACD6600FA10AF /* AppDelegate.swift */; };
 		72BB66AE262ACD6600FA10AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66AD262ACD6600FA10AF /* SceneDelegate.swift */; };
-		72BB66B0262ACD6600FA10AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66AF262ACD6600FA10AF /* ViewController.swift */; };
 		72BB66B5262ACD6600FA10AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BB66B4262ACD6600FA10AF /* Assets.xcassets */; };
 		72BB66B8262ACD6600FA10AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BB66B6262ACD6600FA10AF /* LaunchScreen.storyboard */; };
 		72BB66C3262ACD6700FA10AF /* RW_iOS_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BB66C2262ACD6700FA10AF /* RW_iOS_AssignmentTests.swift */; };
@@ -41,10 +41,10 @@
 		721CA52426350D210068DE3C /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = articles.json; path = ../../articles.json; sourceTree = "<group>"; };
 		721CA52A26350D520068DE3C /* LibraryContentTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContentTableTableViewController.swift; sourceTree = "<group>"; };
 		721CA52F26350D7F0068DE3C /* LibraryNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryNavigationViewController.swift; sourceTree = "<group>"; };
+		721CA53A263514BD0068DE3C /* LibraryContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContentTableViewCell.swift; sourceTree = "<group>"; };
 		72BB66A8262ACD6600FA10AF /* RW iOS Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RW iOS Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB66AB262ACD6600FA10AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72BB66AD262ACD6600FA10AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72BB66AF262ACD6600FA10AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72BB66B4262ACD6600FA10AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BB66B7262ACD6600FA10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BB66B9262ACD6600FA10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +87,7 @@
 			children = (
 				721CA52F26350D7F0068DE3C /* LibraryNavigationViewController.swift */,
 				721CA52A26350D520068DE3C /* LibraryContentTableTableViewController.swift */,
+				721CA53A263514BD0068DE3C /* LibraryContentTableViewCell.swift */,
 			);
 			path = "Library Tab";
 			sourceTree = "<group>";
@@ -116,7 +117,6 @@
 			children = (
 				72BB66AB262ACD6600FA10AF /* AppDelegate.swift */,
 				72BB66AD262ACD6600FA10AF /* SceneDelegate.swift */,
-				72BB66AF262ACD6600FA10AF /* ViewController.swift */,
 				72BB66E4262ACFE000FA10AF /* TabBarViewController.swift */,
 				721CA52926350D3B0068DE3C /* Library Tab */,
 				721CA52426350D210068DE3C /* articles.json */,
@@ -278,7 +278,7 @@
 				721CA53026350D7F0068DE3C /* LibraryNavigationViewController.swift in Sources */,
 				72BB66E5262ACFE000FA10AF /* TabBarViewController.swift in Sources */,
 				721CA52B26350D520068DE3C /* LibraryContentTableTableViewController.swift in Sources */,
-				72BB66B0262ACD6600FA10AF /* ViewController.swift in Sources */,
+				721CA53B263514BD0068DE3C /* LibraryContentTableViewCell.swift in Sources */,
 				72BB66AC262ACD6600FA10AF /* AppDelegate.swift in Sources */,
 				72BB66AE262ACD6600FA10AF /* SceneDelegate.swift in Sources */,
 			);
